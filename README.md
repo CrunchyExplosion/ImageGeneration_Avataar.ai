@@ -4,7 +4,20 @@
 
 This project utilizes the **Stable Diffusion** model to generate high-quality images based on provided text prompts and depth maps. The model allows for guided image generation, resulting in photo-realistic images that match user specifications. The implementation also explores the effects of aspect ratios on image generation quality and measures the latency of the generation process.
 
+# Execution Steps
+## Clone the Repository
+```bash
+git clone <repository_url>
+cd <repository_directory>
+```
+
 ## Installation Instructions
+
+## Setup virtual environment
+```bash
+virtualenv myenv
+.\myenv\Scripts\activate
+```
 
 To set up the environment and install the necessary libraries, execute the following commands:
 
@@ -17,16 +30,16 @@ pip install torchvision
 pip install tqdm
 ```
 
-# Execution Steps
-## Clone the Repository
-```bash
-git clone <repository_url>
-cd <repository_directory>
-```
+
 
 ## Prepare Your Metadata
 - Update the prompts and depths lists in the code with your own text prompts and corresponding depth map filenames.
 - Ensure your depth maps are stored in the correct format (.png or .npy).
+
+## Activate the virtual environment
+```bash
+.\myenv\Scripts\activate
+```
 
 ## Run the Code
 Execute the following command to generate images:
