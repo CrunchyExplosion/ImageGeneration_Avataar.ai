@@ -7,8 +7,7 @@ This project utilizes the **Stable Diffusion** model to generate high-quality im
 # Execution Steps
 ## Clone the Repository
 ```bash
-git clone <repository_url>
-cd <repository_directory>
+git clone https://github.com/CrunchyExplosion/StableDiffusion_imageGenerator
 ```
 
 
